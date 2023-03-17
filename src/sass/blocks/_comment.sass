@@ -1,0 +1,48 @@
+.comment
+    // width: 80%
+    margin: 15px auto
+    padding: 10px
+    display: flex
+    width: 100%
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15)
+    &__main
+        display: flex
+        width: calc( 100% - 50px )
+        flex-direction: column
+    &__header
+        display: flex
+        justify-content: flex-start
+        align-items: center
+    &__author
+        margin-right: 5px
+        padding: 3px 6px
+        border-radius: 15px
+        font-weight: 700
+        background-color: grey
+        color: #fff
+    &__publish-date
+        font-weight: 300
+        color: rgba(0, 0, 0, 0.45)
+        margin-left: 5px
+    &__content
+        padding: 10px 15px 10px 0
+        line-break: anywhere
+    &__btns
+        display: flex
+        justify-content: space-between
+        padding-right: 15px
+    &__like
+        &:hover
+            stroke: #fea0a0
+            transform: scale(1.1)
+        &_active
+            stroke: #fea0a0
+            fill: #fea0a0
+            &:hover
+                transform: scale(1.1)
+    &__delete
+        stroke: rgba(0, 0, 0, 0.45)
+        &:hover
+            transform: scale(1.1)
+
+                

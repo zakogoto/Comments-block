@@ -1,0 +1,33 @@
+.new-comment
+    margin: 15px auto
+    text-align: center
+    border-top: 1px solid rgba(0, 0, 0, 0.45)
+    &__btns
+        width: 95%
+        margin: 15px auto
+        padding: 0 20px
+        display: flex
+        justify-content: space-between
+    &__inputs
+        margin: 15px auto
+        display: flex
+        width: 90%
+        flex-wrap: wrap
+        justify-content: space-between
+    &__textarea, &__author-name, &__date
+        margin-top: 15px
+        width: 100%
+        padding: 10px
+        resize: none
+        border-radius: 10px
+        height: 50px
+        border: 1px solid rgba(0, 0, 0, 0.25)
+        &:focus
+            height: 50px
+    &__author-name, &__date
+        width: 40%
+        height: 30px
+        &:focus
+            height: 30px
+    &__date
+        width: 30%
